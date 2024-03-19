@@ -1,0 +1,107 @@
+body {
+  height: 100%;
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: url("https://images.unsplash.com/photo-1586810146927-6503e5eb48fd?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; /* Cover the entire screen */
+  background-repeat: no-repeat; /* Prevent background from repeating */
+  background-position: center; /* Center the background image */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.search-container {
+  margin-top: 40px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar-input {
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button {
+  height: 31px;
+  width: 90px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.camping-data-box {
+  padding: 10px;
+  margin-top: 30px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  max-width: 900px;
+}
+
+.campground-button {
+  background-color: rgba(
+    137,
+    131,
+    131,
+    0.5
+  ); /* Adjust the alpha value (0.5 in this case) to control transparency */
+  width: 250px;
+  margin: 5px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  max-width: 90%;
+}
+.campground-button:hover {
+  cursor: pointer;
+  box-shadow: rgba(44, 41, 41, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.campgrounds-heading {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.camping-info {
+  color: white;
+  margin-bottom: 65px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading-for-Info {
+  color: rgb(244, 238, 238);
+  font-size: 34px;
+  border: 5px solid rgb(18, 18, 18, 0.2);
+  letter-spacing: inherit;
+  margin-right: 20px;
+}
